@@ -35,10 +35,15 @@ form input[type="text"] {
     color: var(--white);
     border-style: none;
     font-size: 1.5em;
+    border: 0.5px solid lightgrey;
+    border-radius: 10px;
+    
 }
 
 form input[type="text"]::placeholder {
     color: var(--veryLightOrange);
+    font-size: 18px;
+    padding: 5px;
 }
 
 form input[type="text"]:focus {
@@ -63,6 +68,7 @@ form input[type="submit"]:hover {
 .list-container {
     width: 400px;
     margin: 0 auto;
+    
 }
 
 .task-container {
@@ -86,6 +92,39 @@ form input[type="submit"]:hover {
     font-size: 1.3em;
     color: var(--veryLightOrange);
     text-align: center;
+}
+
+@media screen and (max-width:800px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .list-container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #stats {
+     
+        font-size: 1em;
+        
+        
+    }
+
+    form input[type="submit"] {
+        font-size: 1.5em;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        
+     
+    }
+ 
+
+
+
+
 }
 
 
