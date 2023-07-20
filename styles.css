@@ -112,6 +112,7 @@ form input[type="submit"]:hover {
 
     }
 
+ 
     form input[type="submit"] {
         font-size: 1.5em;
         width: 30px;
@@ -122,9 +123,7 @@ form input[type="submit"]:hover {
     }
 
     form input[type="text"] {
-        width: 200px;
-
-
+        width: 250px;
     }
 
 
