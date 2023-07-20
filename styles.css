@@ -3,7 +3,7 @@
     --lightOrange: #dd6662;
     --veryLightOrange: #f89e8b;
     --gray: #55557b;
-    --white: #fff;  
+    --white: #fff;
 }
 
 * {
@@ -37,7 +37,7 @@ form input[type="text"] {
     font-size: 1.5em;
     border: 0.5px solid lightgrey;
     border-radius: 10px;
-    
+
 }
 
 form input[type="text"]::placeholder {
@@ -68,7 +68,7 @@ form input[type="submit"]:hover {
 .list-container {
     width: 400px;
     margin: 0 auto;
-    
+
 }
 
 .task-container {
@@ -98,18 +98,18 @@ form input[type="submit"]:hover {
 
     h1 {
         font-size: 22px;
+      
     }
 
     .list-container {
         width: 200px;
-        margin: 0 auto;
     }
 
     #stats {
-     
+
         font-size: 1em;
-        
-        
+
+
     }
 
     form input[type="submit"] {
@@ -117,16 +117,12 @@ form input[type="submit"]:hover {
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        
-     
+
+
     }
- 
+
 
 
 
 
 }
-
-
-
-
